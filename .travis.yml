@@ -1,0 +1,34 @@
+# Project is written in C++ (defines some useful defaults)
+language: node_js
+
+cache: npm
+
+# Save time by only getting the current repository status
+git:
+  depth: false
+
+# Test both linux and osx
+os: linux
+
+env:
+
+# Build Matrix
+jobs:
+  fast_finish: true
+
+before_install:
+#  - npm install -g npm@versionnumber
+
+# Default install is npm install or npm ci so it should be explicitly overridden
+install:
+  - npm install -g eslint
+  - npm install -g stylelint
+  - npm install -g htmlhint
+
+before_script:
+
+# Actually check if it works
+script:
+#  - eslint stuff
+#  - stylelint stuff
+#  - htmlhint stuff
