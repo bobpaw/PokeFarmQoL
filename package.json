@@ -1,0 +1,22 @@
+{
+  "name": "pokefarmqol",
+  "version": "1.3.63",
+  "description": "Quality of Life changes to Pokéfarm!",
+  "main": "Poke-Farm-QoL.user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobpaw/PokeFarmQoL.git"
+  },
+  "author": "Bentomon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobpaw/PokeFarmQoL/issues"
+  },
+  "homepage": "https://github.com/bobpaw/PokeFarmQoL#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  }
+}
